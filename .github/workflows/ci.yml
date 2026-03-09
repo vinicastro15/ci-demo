@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Mensagem 1
-       run: echo "Iniciando pipeline"
+      - name: Mensagem 1
+        run: echo "Iniciando pipeline"
 
-      -name: Mensagem 2
-       run: echo " pipeline Finalisado"
+      - name: Mensagem 2
+        run: echo " pipeline Finalisado"
 
     
